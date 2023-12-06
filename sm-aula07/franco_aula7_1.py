@@ -1,1 +1,1 @@
-print("Bopm dia")
+print("Bom dia")
