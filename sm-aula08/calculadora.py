@@ -1,11 +1,16 @@
+operacao = int(input('Qual operação quer fazer? \n 1) soma\n 2) subtração\n 3) multiplicação\n 4) Divisão\n'))
+num1 = float(input('Digite um número: '))
+num2 = float(input('Digite um número: '))
 
-def calculadora_simples(num1, num2):
-    return num1 + num2
+if operacao == 1:
+    print(num1 + num2)
 
-# Exemplo de uso:
-numero1 = float(input("Digite o primeiro número: "))
-numero2 = float(input("Digite o segundo número: "))
+if operacao == 2:
+    print(num1 - num2)
 
-resultado = calculadora_simples(numero1, numero2)
+if operacao == 3:
+    print(num1 * num2)
 
-print(f"Resultado: {resultado}")
+if operacao == 4:
+    print(num1 / num2)
+
