@@ -4,7 +4,6 @@ num2 = float(input('Digite um número: '))
 
 if operacao == 1:
     print(num1 + num2)
-
 if operacao == 2:
     print(num1 - num2)
 
